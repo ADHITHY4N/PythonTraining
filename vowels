@@ -1,0 +1,8 @@
+string = str(input())
+vowels = ('A','E','I','O','U','a','e','i','o','u')
+count=0;
+for char in string:
+    if char in vowels:
+        count=count+1
+print("Total number of vowels: ",count)
+        
