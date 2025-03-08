@@ -1,0 +1,9 @@
+inputlist = [1,2,3,4,2,3,4]
+print("List before sort:",inputlist)
+inputlist.sort()
+print("List after sort ascending",inputlist)
+inputlist.sort(reverse = True)
+print("List after sort descending",inputlist)
+
+
+    
