@@ -1,0 +1,4 @@
+inputstring=(input("enter a string "))
+outputstring = ''
+for i in inputstring:
+    print(i,i.islower(),i.isupper())
