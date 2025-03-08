@@ -1,0 +1,15 @@
+inputlist = [1,2,3,4,2,3,4]
+print(inputlist)
+
+inputlist.insert(3,"Aadhi")
+print(inputlist)
+
+inputlist.append("Append this")
+print(inputlist)
+
+inputlist.remove(2)
+print(inputlist)
+
+inputlist.pop()
+inputlist.pop(3)
+print(inputlist)
